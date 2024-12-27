@@ -4,7 +4,6 @@ from django.contrib.auth.hashers import make_password
 from django.utils.timezone import now
 
 
-
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
